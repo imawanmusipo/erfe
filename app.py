@@ -20,7 +20,7 @@ socketio = SocketIO(app, cors_allowed_origins="*", async_mode='gevent')
 # ==========================================
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY") 
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL_AI = "openai/gpt-oss-120b:free"
+MODEL_AI = "openai/gpt-oss-20b:free"
 WALLET_KEY = os.getenv("WALLET_KEY") 
 
 UPDATE_BALANCE_EVERY = 5 
